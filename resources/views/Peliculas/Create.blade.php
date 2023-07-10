@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('titulo','Crear')
 @section('contenido')
 
 <form action="{{route('pelicula.store')}}" method="POST">

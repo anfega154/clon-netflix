@@ -1,8 +1,8 @@
 
 @extends('layouts.app')
-
+@section('titulo','Lista')
 @section('contenido')
-
+<a class="btn btn-primary" href="{{route('pelicula.create')}}" role="button">Crear </a>
     <table class="table">
         <thead>
           <tr>
